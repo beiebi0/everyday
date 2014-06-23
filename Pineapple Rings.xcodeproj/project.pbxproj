@@ -19,6 +19,7 @@
 		255B19821957E32800BB723D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B196A1957E32800BB723D /* UIKit.framework */; };
 		255B198A1957E32800BB723D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255B19881957E32800BB723D /* InfoPlist.strings */; };
 		255B198C1957E32800BB723D /* Pineapple_RingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B198B1957E32800BB723D /* Pineapple_RingsTests.m */; };
+		255B19961957E8CE00BB723D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B19951957E8CE00BB723D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		255B19871957E32800BB723D /* Pineapple RingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pineapple RingsTests-Info.plist"; sourceTree = "<group>"; };
 		255B19891957E32800BB723D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		255B198B1957E32800BB723D /* Pineapple_RingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pineapple_RingsTests.m; sourceTree = "<group>"; };
+		255B19951957E8CE00BB723D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				255B19751957E32800BB723D /* TLJAppDelegate.h */,
 				255B19761957E32800BB723D /* TLJAppDelegate.m */,
+				255B19951957E8CE00BB723D /* Main.storyboard */,
 				255B19781957E32800BB723D /* Images.xcassets */,
 				255B196D1957E32800BB723D /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255B19961957E8CE00BB723D /* Main.storyboard in Resources */,
 				255B19711957E32800BB723D /* InfoPlist.strings in Resources */,
 				255B19791957E32800BB723D /* Images.xcassets in Resources */,
 			);
