@@ -1,2 +1,2 @@
-everyday
+pineapple rings!!
 ========
