@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255B19671957E32800BB723D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B19661957E32800BB723D /* Foundation.framework */; };
+		255B19691957E32800BB723D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B19681957E32800BB723D /* CoreGraphics.framework */; };
+		255B196B1957E32800BB723D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B196A1957E32800BB723D /* UIKit.framework */; };
+		255B19711957E32800BB723D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255B196F1957E32800BB723D /* InfoPlist.strings */; };
+		255B19731957E32800BB723D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B19721957E32800BB723D /* main.m */; };
+		255B19771957E32800BB723D /* TLJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B19761957E32800BB723D /* TLJAppDelegate.m */; };
+		255B19791957E32800BB723D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255B19781957E32800BB723D /* Images.xcassets */; };
+		255B19801957E32800BB723D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B197F1957E32800BB723D /* XCTest.framework */; };
+		255B19811957E32800BB723D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B19661957E32800BB723D /* Foundation.framework */; };
+		255B19821957E32800BB723D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B196A1957E32800BB723D /* UIKit.framework */; };
+		255B198A1957E32800BB723D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255B19881957E32800BB723D /* InfoPlist.strings */; };
+		255B198C1957E32800BB723D /* Pineapple_RingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B198B1957E32800BB723D /* Pineapple_RingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255B19831957E32800BB723D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255B195B1957E32800BB723D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B19621957E32800BB723D;
+			remoteInfo = "Pineapple Rings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255B19631957E32800BB723D /* Pineapple Rings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pineapple Rings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255B19661957E32800BB723D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		255B19681957E32800BB723D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		255B196A1957E32800BB723D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		255B196E1957E32800BB723D /* Pineapple Rings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pineapple Rings-Info.plist"; sourceTree = "<group>"; };
+		255B19701957E32800BB723D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		255B19721957E32800BB723D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255B19741957E32800BB723D /* Pineapple Rings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pineapple Rings-Prefix.pch"; sourceTree = "<group>"; };
+		255B19751957E32800BB723D /* TLJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLJAppDelegate.h; sourceTree = "<group>"; };
+		255B19761957E32800BB723D /* TLJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLJAppDelegate.m; sourceTree = "<group>"; };
+		255B19781957E32800BB723D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		255B197E1957E32800BB723D /* Pineapple RingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pineapple RingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255B197F1957E32800BB723D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		255B19871957E32800BB723D /* Pineapple RingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pineapple RingsTests-Info.plist"; sourceTree = "<group>"; };
+		255B19891957E32800BB723D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		255B198B1957E32800BB723D /* Pineapple_RingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pineapple_RingsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255B19601957E32800BB723D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B19691957E32800BB723D /* CoreGraphics.framework in Frameworks */,
+				255B196B1957E32800BB723D /* UIKit.framework in Frameworks */,
+				255B19671957E32800BB723D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255B197B1957E32800BB723D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B19801957E32800BB723D /* XCTest.framework in Frameworks */,
+				255B19821957E32800BB723D /* UIKit.framework in Frameworks */,
+				255B19811957E32800BB723D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255B195A1957E32800BB723D = {
+			isa = PBXGroup;
+			children = (
+				255B196C1957E32800BB723D /* Pineapple Rings */,
+				255B19851957E32800BB723D /* Pineapple RingsTests */,
+				255B19651957E32800BB723D /* Frameworks */,
+				255B19641957E32800BB723D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255B19641957E32800BB723D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255B19631957E32800BB723D /* Pineapple Rings.app */,
+				255B197E1957E32800BB723D /* Pineapple RingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255B19651957E32800BB723D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				255B19661957E32800BB723D /* Foundation.framework */,
+				255B19681957E32800BB723D /* CoreGraphics.framework */,
+				255B196A1957E32800BB723D /* UIKit.framework */,
+				255B197F1957E32800BB723D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255B196C1957E32800BB723D /* Pineapple Rings */ = {
+			isa = PBXGroup;
+			children = (
+				255B19751957E32800BB723D /* TLJAppDelegate.h */,
+				255B19761957E32800BB723D /* TLJAppDelegate.m */,
+				255B19781957E32800BB723D /* Images.xcassets */,
+				255B196D1957E32800BB723D /* Supporting Files */,
+			);
+			path = "Pineapple Rings";
+			sourceTree = "<group>";
+		};
+		255B196D1957E32800BB723D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255B196E1957E32800BB723D /* Pineapple Rings-Info.plist */,
+				255B196F1957E32800BB723D /* InfoPlist.strings */,
+				255B19721957E32800BB723D /* main.m */,
+				255B19741957E32800BB723D /* Pineapple Rings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255B19851957E32800BB723D /* Pineapple RingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				255B198B1957E32800BB723D /* Pineapple_RingsTests.m */,
+				255B19861957E32800BB723D /* Supporting Files */,
+			);
+			path = "Pineapple RingsTests";
+			sourceTree = "<group>";
+		};
+		255B19861957E32800BB723D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255B19871957E32800BB723D /* Pineapple RingsTests-Info.plist */,
+				255B19881957E32800BB723D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255B19621957E32800BB723D /* Pineapple Rings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255B198F1957E32800BB723D /* Build configuration list for PBXNativeTarget "Pineapple Rings" */;
+			buildPhases = (
+				255B195F1957E32800BB723D /* Sources */,
+				255B19601957E32800BB723D /* Frameworks */,
+				255B19611957E32800BB723D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pineapple Rings";
+			productName = "Pineapple Rings";
+			productReference = 255B19631957E32800BB723D /* Pineapple Rings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255B197D1957E32800BB723D /* Pineapple RingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255B19921957E32800BB723D /* Build configuration list for PBXNativeTarget "Pineapple RingsTests" */;
+			buildPhases = (
+				255B197A1957E32800BB723D /* Sources */,
+				255B197B1957E32800BB723D /* Frameworks */,
+				255B197C1957E32800BB723D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255B19841957E32800BB723D /* PBXTargetDependency */,
+			);
+			name = "Pineapple RingsTests";
+			productName = "Pineapple RingsTests";
+			productReference = 255B197E1957E32800BB723D /* Pineapple RingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255B195B1957E32800BB723D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TLJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Longjun Tan";
+				TargetAttributes = {
+					255B197D1957E32800BB723D = {
+						TestTargetID = 255B19621957E32800BB723D;
+					};
+				};
+			};
+			buildConfigurationList = 255B195E1957E32800BB723D /* Build configuration list for PBXProject "Pineapple Rings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 255B195A1957E32800BB723D;
+			productRefGroup = 255B19641957E32800BB723D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255B19621957E32800BB723D /* Pineapple Rings */,
+				255B197D1957E32800BB723D /* Pineapple RingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255B19611957E32800BB723D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B19711957E32800BB723D /* InfoPlist.strings in Resources */,
+				255B19791957E32800BB723D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255B197C1957E32800BB723D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B198A1957E32800BB723D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255B195F1957E32800BB723D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B19731957E32800BB723D /* main.m in Sources */,
+				255B19771957E32800BB723D /* TLJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255B197A1957E32800BB723D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B198C1957E32800BB723D /* Pineapple_RingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255B19841957E32800BB723D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255B19621957E32800BB723D /* Pineapple Rings */;
+			targetProxy = 255B19831957E32800BB723D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255B196F1957E32800BB723D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255B19701957E32800BB723D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		255B19881957E32800BB723D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255B19891957E32800BB723D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255B198D1957E32800BB723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		255B198E1957E32800BB723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255B19901957E32800BB723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pineapple Rings/Pineapple Rings-Prefix.pch";
+				INFOPLIST_FILE = "Pineapple Rings/Pineapple Rings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		255B19911957E32800BB723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pineapple Rings/Pineapple Rings-Prefix.pch";
+				INFOPLIST_FILE = "Pineapple Rings/Pineapple Rings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		255B19931957E32800BB723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pineapple Rings.app/Pineapple Rings";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pineapple Rings/Pineapple Rings-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pineapple RingsTests/Pineapple RingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		255B19941957E32800BB723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pineapple Rings.app/Pineapple Rings";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pineapple Rings/Pineapple Rings-Prefix.pch";
+				INFOPLIST_FILE = "Pineapple RingsTests/Pineapple RingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255B195E1957E32800BB723D /* Build configuration list for PBXProject "Pineapple Rings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255B198D1957E32800BB723D /* Debug */,
+				255B198E1957E32800BB723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255B198F1957E32800BB723D /* Build configuration list for PBXNativeTarget "Pineapple Rings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255B19901957E32800BB723D /* Debug */,
+				255B19911957E32800BB723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		255B19921957E32800BB723D /* Build configuration list for PBXNativeTarget "Pineapple RingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255B19931957E32800BB723D /* Debug */,
+				255B19941957E32800BB723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255B195B1957E32800BB723D /* Project object */;
+}
